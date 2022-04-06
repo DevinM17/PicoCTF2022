@@ -10,17 +10,20 @@ The description of this challenge really provided me with all I needed to know i
 
 ## Step 1 | Using vim to find cultiris user
 Opening the usernames.txt file in vim and entering  :set number allowed me to see all corrosponding line numbers. Then using forward slash I searched for the user. I found the username was on line 378. 
-![[Pasted image 20220406192153.png]]
+![image](https://user-images.githubusercontent.com/95002315/162091248-18a6f190-b4df-4d25-91cd-4ee40ef53a0d.png)
+
 
 ## Step 2 | Finding password on line 378
 As I have done some programming before I have many template scripts sitting around for when I need them. I wasnt 100% sure how to search for a specific line number in vim so I thought I would use a simple line counting script in python to print out the contents of line number 378 in passwords.txt. Of course if you knew how to search for a line number in vim or another text editor or even just scroll through with line numbers visible you could do that. I figured this way was a bit more fun and it uses some of my programming knowledge as well.
-![[Pasted image 20220406192433.png]]
+![image](https://user-images.githubusercontent.com/95002315/162091323-2fc71584-1789-4b72-a4e9-54360b04e7b4.png)
 
-![[Pasted image 20220406192512.png]]
+
+![image](https://user-images.githubusercontent.com/95002315/162091339-058ae978-44c6-4867-8f55-9207ccdd5d11.png)
+
 
 ## Step 3 | Decrypting the password
 You can see from the previous step that the password found clearly looks like a flag as it has some text before a {  and then some text within. Throwing the encrypted value in cyberchef I played around with different bases before trying ROT13 decryption. The flag was finally found.
-![[Pasted image 20220406192703.png]]
+![image](https://user-images.githubusercontent.com/95002315/162091354-21e606e4-9a4d-4a1b-adb6-cbac8d8c26b5.png)
 
 
 Flag = picoCTF{C7r1F_54V35_71M3}
