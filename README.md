@@ -10,3 +10,5 @@ PicoCTF allowed for up to teams of 5 and myself along side 4 of my classmates al
 
 ## Team Score and Placement
 Each challenge varies in terms of the amount of points rewarded, the harder the challenge the more points you get. By the end of the 2 weeks my team had managed to get 4700 points. All this while completing are usual school work throughout the two weeks is very impressive! We placed 1969/7794 on the global leaderboards.
+
+![image](https://user-images.githubusercontent.com/95002315/162258375-8b405ad7-8423-4aae-9bb4-6f1f874a8912.png)
