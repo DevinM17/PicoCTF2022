@@ -15,6 +15,6 @@ The description of this challenge tells us that the message file provided is enc
 
 After downloading the message file we can copy and paste the value into CyberChef, then since we know it was encrypted using a rail cipher I searched for rail fence cipher decoder tool. Thankfully CyberChef had such a tool and I entered in the key value of 4 (we were told the message was encrypted with 4 rails).
 
-PICTURE OF DECODE
+![image](https://user-images.githubusercontent.com/95002315/162259603-20cdc92e-422c-4085-b420-9f3a6e69d1b2.png)
 
 Flag = picoCTF{WH3R3_D035_7H3_F3NC3_8361N_4ND_3ND_D00AFDD3}
