@@ -21,3 +21,5 @@ FTK imager is a powerful tool and in this case I used it to investigate the disk
 I exported the key that was found in the /ssh folder and used it to connect to the remote machine. The connection was successful and now just needed to look for the flag. Using the ls command I noticed a file called flag.txt, theres a good change are flag is in there! Using the cat command I saw the contents and of course it was the flag.
 
 ![image](https://user-images.githubusercontent.com/95002315/162236605-b36c3853-903b-472d-b316-e2f6ff81988d.png)
+
+Flag = picoCTF{k3y_5l3u7h_75b85d71}
