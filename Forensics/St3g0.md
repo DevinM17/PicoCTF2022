@@ -10,7 +10,7 @@ We know the end sequence of the message will be `$t3g0`
 We are provided an image for this challenge and right off the bat we know there is some hidden information embedded in it as the title suggests. The hint suggests we will find the following at the end of the message `$t3g0`.  We will need to determine what type of stego technique was used to embed the data so we can extract it.
 
 ## Step 1 | Least Significant bit
-After attempting to extrach the data multiple ways I decided to research Basic Steganography in PNG files and found [this](https://shanereilly.net/posts/basic_steganography_and_png_files/) article which lead me to believe LSB was used to embed the data.
+After attempting to extract the data multiple ways I decided to research Basic Steganography in PNG files and found [this](https://shanereilly.net/posts/basic_steganography_and_png_files/) article which lead me to believe LSB was used to embed the data.
 
 ## Step 2 | Extraction
 The flag can be seen in the output of the following command: `zsteg -a pico.flag.png`. The flag was embedded in b1,RGB,LSB,XY.
