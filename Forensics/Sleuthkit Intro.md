@@ -12,10 +12,12 @@ As with any challenge involving a disk image we must first download the image an
 
 ## Step 1 | Using mmls to find Linux partition
 The mmls command can be used to show the parition table on this disk image. Simply run the following command `mmls disk.img`. You will see in the output below the Linuix partition is seen and we can see the following information such as the partition starts at 0000002048 and ends at 0000204799, and a length of 0000202752. 
-PIC OF OUTPUT
+
+![image](https://user-images.githubusercontent.com/95002315/162510515-e200957e-9257-436a-a6ef-1dbf6a0972b1.png)
 
 ## Step 2 | Checking our answer
 Connecting to the remote checking service via netcat we are prompted for the size of the Linux partition which we noted down as 0000202752. Once we enter that information we are given the flag.
 
+![image](https://user-images.githubusercontent.com/95002315/162510545-49a74766-0504-4c32-8e39-d43d75d02a3e.png)
 
 Flag = picoCTF{mm15_f7w!}
