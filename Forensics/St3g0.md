@@ -15,5 +15,6 @@ After attempting to extrach the data multiple ways I decided to research Basic S
 ## Step 2 | Extraction
 The flag can be seen in the output of the following command: `zsteg -a pico.flag.png`. The flag was embedded in b1,RGB,LSB,XY.
 
+![image](https://user-images.githubusercontent.com/95002315/162516446-6e07094a-6f97-41cf-962b-ed8e33d0099c.png)
 
 Flag = picoCTF{7h3r3_15_n0_5p00n_a9a181eb}
