@@ -18,3 +18,5 @@ Before I upload the file to FTK imager I can use a tool such as fiwalk to find t
 Since I now know the files location I can go to the directory and view the file. As you can see its out flag.
 
 ![image](https://user-images.githubusercontent.com/95002315/162501901-d054e51c-1148-4dee-9193-1cac5c2cf6c9.png)
+
+Flag = picoCTF{by73_5urf3r_2f22df38} 
