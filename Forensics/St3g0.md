@@ -1,4 +1,4 @@
-# Forensics = St3g0
+# Forensics - St3g0
 ## Description
 Download this image and find the flag.
 -   [Download image](https://artifacts.picoctf.net/c/423/pico.flag.png)
