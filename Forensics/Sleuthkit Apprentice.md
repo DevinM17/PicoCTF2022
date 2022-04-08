@@ -12,5 +12,9 @@ We are given a disk image and told to find the flag, the first thought I have is
 ## Step 1 | Using fiwalk 
 Before I upload the file to FTK imager I can use a tool such as fiwalk to find the file path to the flag. 
 
+![image](https://user-images.githubusercontent.com/95002315/162501848-c71b83c8-ea4c-4605-b306-35b63a30ee33.png)
+
 ## Step 2 | FTK Imager Analysis
 Since I now know the files location I can go to the directory and view the file. As you can see its out flag.
+
+![image](https://user-images.githubusercontent.com/95002315/162501901-d054e51c-1148-4dee-9193-1cac5c2cf6c9.png)
