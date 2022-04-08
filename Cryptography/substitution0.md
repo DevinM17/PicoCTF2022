@@ -11,4 +11,8 @@ So we know the message we were provided is scrambled and we need to unscramble i
 ## Step 1 | Decoding using dcode.fr
 Dcode.fr has a great Mono-alphabetic Substitution decoding tool (found [here](https://www.dcode.fr/monoalphabetic-substitution)) that we can use. We can paste in the bulk of the message (excluding the first line) into the ciphertext box and then copy the first line into the "Knowing the substitution alphabet used" box. Once we press decode we can see in the results pane the message has been decoded. 
 
+![image](https://user-images.githubusercontent.com/95002315/162517816-bc2fed75-becc-42dd-9d22-7ef1313070d7.png)
+
+![image](https://user-images.githubusercontent.com/95002315/162517835-872df5c3-f9c9-4fe4-9f5e-05c682fbb78e.png)
+
 Flag = PICOCTF{5UB5717U710N_3V0LU710N_357BF9FF}
